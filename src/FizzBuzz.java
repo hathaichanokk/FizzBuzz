@@ -5,10 +5,10 @@ public class FizzBuzz {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner keyboard = new Scanner(System.in);
-		int input = keyboard.nextInt();
+		String input = keyboard.next();
 		System.out.println(input);
 	}
-	public static int getInt(int keyboard) {
+	public static String getString(String keyboard) {
 		return keyboard;
 	}
 	
