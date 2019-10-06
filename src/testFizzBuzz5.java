@@ -6,11 +6,11 @@ class testFizzBuzz5 {
 
 
 	FizzBuzz fizzBuzz = new FizzBuzz();
-	String i = fizzBuzz.getString("Fizz");
+	String i = fizzBuzz.getString("Buzz");
 	
 	@Test
-	void input_is_9_expect_Fizz() {
-		assertEquals("Fizz", i);
+	void input_is_10_expect_Fizz() {
+		assertEquals("Buzz", i);
 	}
 
 }
