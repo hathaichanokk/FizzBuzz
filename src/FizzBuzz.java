@@ -5,11 +5,18 @@ public class FizzBuzz {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner keyboard = new Scanner(System.in);
-		String input = keyboard.toString();
-		System.out.println(input);
+		
 	}
-	public static String getString(String keyboard) {
-		return keyboard;
+	public String getString(int kb) {
+		if(kb %3 == 0) {
+			return "Fizz";
+		}else {
+			return Integer.toString(kb);
+		}
+		
+	}
+	public String Fizz() {
+		return "Fizz";
 	}
 	
 }
