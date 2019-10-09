@@ -11,7 +11,7 @@ public class FizzBuzz {
 		if(kb %3 == 0) {
 			return Fizz();
 		}
-		else if(){
+		else if(kb % 5==0){
 			return Buzz();
 		}else {
 			return Integer.toString(kb);
