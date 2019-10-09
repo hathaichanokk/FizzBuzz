@@ -20,15 +20,15 @@ class testFizzBuzz5 {
 	String i12  = fizzBuzz.getString(12);
 	String i13  = fizzBuzz.getString(13);
 	String i14  = fizzBuzz.getString(14);
-	
+	String i15  = fizzBuzz.getString(15);
 	@Test
 	void input_is_1_expect_1() {
-		assertEquals(1, i);
+		assertEquals("1", i);
 	}
 	
 	@Test
 	void input_is_2_expect_2() {
-		assertEquals(2, i2);
+		assertEquals("2", i2);
 	}
 	@Test
 	void input_is_3_expect_Fizz() {
@@ -37,7 +37,7 @@ class testFizzBuzz5 {
 	
 	@Test
 	void input_is_4_expect_4() {
-		assertEquals(4, i4);
+		assertEquals("4", i4);
 	}
 	@Test
 	void input_is_5_expect_Buzz() {
@@ -49,11 +49,11 @@ class testFizzBuzz5 {
 	}
 	@Test
 	void input_is_7_expect_7() {
-		assertEquals(7, i7);
+		assertEquals("7", i7);
 	}
 	@Test
 	void input_is_8_expect_8() {
-		assertEquals(8, i8);
+		assertEquals("8", i8);
 	}
 	@Test
 	void input_is_9_expect_Fizz() {
@@ -65,7 +65,7 @@ class testFizzBuzz5 {
 	}
 	@Test
 	void input_is_11_expect_11() {
-		assertEquals(11, i11);
+		assertEquals("11", i11);
 	}
 	@Test
 	void input_is_12_expect_Fizz() {
@@ -73,11 +73,15 @@ class testFizzBuzz5 {
 	}
 	@Test
 	void input_is_13_expect_13() {
-		assertEquals(13, i13);
+		assertEquals("13", i13);
 	}
 	@Test
 	void input_is_14_expect_14() {
-		assertEquals(14, i14);
+		assertEquals("14", i14);
+	}
+	@Test
+	void input_is_15_expect_FizzBuzz() {
+		assertEquals("FizzBuzz", i15);
 	}
 
 }

@@ -8,10 +8,12 @@ public class FizzBuzz {
 		
 	}
 	public String getString(int kb) {
-		if(kb %3 == 0) {
-			return Fizz();
+		if((kb %3 == 0)&(kb %5 == 0)) {
+			return FizzBuzzs();
 		}
-		else if(kb % 5==0){
+		else if(kb % 3==0){
+			return Fizz();
+		}else if(kb % 5==0){
 			return Buzz();
 		}else {
 			return Integer.toString(kb);
@@ -23,6 +25,9 @@ public class FizzBuzz {
 	}
 	public String Buzz() {
 		return "Buzz";
+	}
+	public String FizzBuzzs() {
+		return "FizzBuzz";
 	}
 	
 }
