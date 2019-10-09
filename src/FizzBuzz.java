@@ -9,7 +9,10 @@ public class FizzBuzz {
 	}
 	public String getString(int kb) {
 		if(kb %3 == 0) {
-			return "Fizz";
+			return Fizz();
+		}
+		else if(){
+			return Buzz();
 		}else {
 			return Integer.toString(kb);
 		}
@@ -17,6 +20,9 @@ public class FizzBuzz {
 	}
 	public String Fizz() {
 		return "Fizz";
+	}
+	public String Buzz() {
+		return "Buzz";
 	}
 	
 }
