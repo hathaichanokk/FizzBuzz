@@ -6,7 +6,7 @@ class testFizzBuzz5 {
 
 
 	FizzBuzz fizzBuzz = new FizzBuzz();
-	String i = fizzBuzz.getString("FizzBuzz");
+	String i  = fizzBuzz.getString("FizzBuzz");
 	@Test
 	void input_is_15_expect_FizzBuzz() {
 		assertEquals("FizzBuzz", i);
