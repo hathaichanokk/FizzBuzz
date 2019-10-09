@@ -15,6 +15,7 @@ class testFizzBuzz5 {
 	String i7  = fizzBuzz.getString(7);
 	String i8  = fizzBuzz.getString(8);
 	String i9  = fizzBuzz.getString(9);
+	String i10  = fizzBuzz.getString(10);
 	
 	@Test
 	void input_is_1_expect_1() {
@@ -52,7 +53,11 @@ class testFizzBuzz5 {
 	}
 	@Test
 	void input_is_9_expect_Fizz() {
-		assertEquals("Fizz", i8);
+		assertEquals("Fizz", i9);
+	}
+	@Test
+	void input_is_10_expect_Buzz() {
+		assertEquals("Buzz", i10);
 	}
 	
 
